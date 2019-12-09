@@ -3,5 +3,6 @@ java_test(
     srcs = ["MyLibTest.java"],
     deps = [
         "//java/cbtest:MyLib",
+        "//third_party/java/junit",
     ],
 )
