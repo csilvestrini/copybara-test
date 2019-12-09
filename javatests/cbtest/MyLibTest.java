@@ -10,6 +10,6 @@ import org.junit.runners.JUnit4;
 public final class MyLibTest {
   @Test
   public void testTheValue() {
-    assertEquals(MyLib.getValue(), 123);
+    assertEquals(123, MyLib.getValue());
   }
 }
